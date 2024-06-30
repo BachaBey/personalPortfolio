@@ -1,0 +1,652 @@
+body{
+    background-color: #E6E6E6;
+    margin: 0;
+    padding: 0;
+}
+.navigationBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: fixed;
+   
+    top: 0;
+   
+    width: 100%;
+    height: 100px;
+
+    
+    background-color: #E6E6E6;
+    z-index: 10;
+}
+.scrolledNavigationBar{
+    border-bottom: 2px solid;
+    border-radius:0 0 1.4em 1.4em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+}
+.navigationBarItems{
+    display: flex;
+    width: 80%;
+    
+    
+}
+
+.itemCollection{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 2vw;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+a {
+    padding: 8px 24px;
+    text-decoration: none;
+    color: black;
+    
+}
+.itemCollection .selected a{
+    color: white;
+    background-color: black;
+    border-radius: 0.8rem;
+    
+}
+.sectionHomeStyle{
+    display: flex;
+    padding-top: 100px;
+}
+.homeContainer{
+    
+    display: flex;
+    width: 96%;
+    
+    
+   
+    
+    
+}
+.leftSideHomeContainer{
+    width: 70%;
+    
+}
+.titleHome{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 1.8vw;
+
+    text-align: center;
+
+}
+.terminalHome{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+    
+}
+.messageHome{ 
+    
+    padding-left: 2%;
+    font-family: "Roboto Mono", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6vw;
+    display: flex;
+    position: absolute;
+   
+}
+.messageMargin{
+    margin-left: 40px;
+}
+.socialIconResume{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0.6rem;
+    
+   
+}
+.socialIcon{
+    display: flex; 
+    width: 30%;
+    
+}
+.iconClass{
+    font-size: 2rem;
+    margin: 0 5px;
+}
+.iconResumeContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 94%;
+}
+.resumeButton{
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 1.4rem;
+    border: 0;
+    padding: 4% 6%;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    width: 100%;
+    
+}
+.resumeButton:hover{
+    background-color: rgb(53, 53, 53);
+}
+.rightSideHomeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+  
+    
+}
+.imageProfile{
+    border: 2px solid;
+    border-radius: 2rem;
+}
+.sectionStyle{
+    padding-left: 2%;
+}
+.sectionDivider{
+    height: 100px;
+}
+.sectionTitle{
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    font-size: 40px;
+    padding-left: 5%;
+    color: black;
+   
+    
+}
+.aboutMeText{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+.allProjectsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+    
+}
+.singleProjectContainer{
+   
+    width: 96%;
+    background-color: white;
+    flex-grow: 1;
+    padding: 16px;
+    border: 2px solid;
+    border-radius: 2rem;
+
+    margin-bottom: 40px;
+}
+.projectHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+    width: 100%;
+}
+.projectTechContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 68%;
+}
+.projectTech{
+    font-family: "Montserrat", sans-serif;
+    font-style: 900;
+    font-size: 24px;
+    padding: 4px 18px;
+    border: 0;
+    border-radius: 2rem;
+    background-color: #C3C3C3;
+}
+.projectBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    margin-top: 12px;
+    width: 98%;
+}
+.leftBodyProject{
+    width: 70%;
+ 
+}
+.rightBodyProject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+}
+.projectPicture{
+    border: 1px solid;
+    border-radius: 1rem;
+}
+.projectTitle{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 14px;
+}
+.projectDescription{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    
+}
+.projectFooterText{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    padding-left: 6px;
+}
+.skillsContainer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.allSkillsContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.skillsFisrtRowIcons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 6%;
+
+
+}
+.skillsSecondRowIcons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.iconSkill{
+    width: 10%;
+}
+.contactContainer{
+    display: flex;
+    
+    padding-left: 16px;
+    padding-bottom: 10px;
+}
+.leftSideContactContainer{
+   
+
+    width: 49%;
+
+}
+.contactText{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.dataContact{
+    padding-left: 24px;
+}
+.rightSideContactContainer{
+    width: 51%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.allSocialContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+.singleSocialContainer{
+    width: 96%;
+    background-color: white;
+    flex-grow: 1;
+    padding: 16px;
+    border: 2px solid;
+    border-radius: 2rem;
+
+    margin-bottom: 40px;
+}
+.socialHeader{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    padding-left: 22px;
+}
+.socialBody{
+    display: flex;
+   
+    justify-content: center;
+    
+
+    margin-top: 12px;
+    width: 100%;
+    
+}
+.leftSideSocial{
+    width: 40%;
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+}
+.socialBodyText{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+.rightSideSocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 60%;
+    
+}
+.socialImage{
+    width: 48%;
+    height: 90%;
+    
+    border: 1px solid;
+    border-radius: 1rem;
+}
+
+
+
+
+@media screen and (max-width : 930px){
+    .navigationBar{
+        height: 50px;
+    }
+    .sectionHomeStyle{
+        padding-top: 50px;
+    }
+    .messageHome{
+        font-size: 2vw;
+    }
+    .iconClass{
+        font-size: 1.4rem;
+        margin: 0 5px;
+    }
+    .resumeButton{
+        background-color: black;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-size: smaller;
+        border: 0;
+        padding: 4% 6%;
+        border-radius: 0.6rem;
+        cursor: pointer;
+        width: 100%;
+        
+    }
+    .leftSideHomeContainer{
+        
+        width: 70%;
+    }
+    .rightSideHomeContainer{
+        width: 30%;
+    }
+    .sectionTitle{
+        font-size: 30px;
+    }
+    .aboutMeText{
+        font-size: 20px;
+    }
+    .singleProjectContainer{
+        width: 92%;
+        padding: 12px;
+    }
+    .projectTechContainer{
+        width: 72%;
+    }
+    .projectTech{
+        font-family: "Montserrat", sans-serif;
+        font-style: 900;
+        font-size: 16px;
+        padding: 2px 14px;
+        border: 0;
+        border-radius: 2rem;
+        background-color: #C3C3C3;
+    }
+    .contactText{
+        
+        font-size: 16px;
+        padding-left: 6px;
+    }
+    .singleSocialContainer{
+        width: 92%;
+        padding: 10px;
+        border: 2px solid;
+        border-radius: 1.8rem;
+
+        margin-bottom: 40px;
+    }
+    .socialBodyText{
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width : 650px) {
+    
+    a {
+        padding: 4px 12px;
+        
+    }
+
+    .itemCollection .selected a{
+       
+        border-radius: 0.4rem;
+    
+}
+.scrolledNavigationBar{
+    border-bottom: 1px solid;
+    
+}
+    .messageMargin{
+        margin-left: 20px;
+    }
+    .imageProfile{
+        border: 1px solid;
+        border-radius: 1.4rem;
+    }
+    .sectionTitle{
+        font-size: 18px;
+    }
+    .aboutMeText{
+        font-size: 10px;
+    }
+    .sectionDivider{
+        height: 20px;
+    }
+    .projectTechContainer{
+        width: 72%;
+    }
+    .projectTech{
+        font-family: "Montserrat", sans-serif;
+        font-style: 900;
+        font-size: 14px;
+        padding: 2px 10px;
+        border: 0;
+        border-radius: 2rem;
+        background-color: #C3C3C3;
+    }
+    .singleProjectContainer{
+        width: 90%;
+        padding: 10px;
+        border: 1px solid;
+        margin-bottom: 14px;
+    }
+    .projectTitle{
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .projectDescription{
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-size: 10px;
+        
+    }
+    .projectFooterText{
+        font-size: 8px;
+    }
+    .projectPicture{
+        border-radius: 0.6rem;
+    }
+    .contactText{
+        
+        font-size: 14px;
+        padding-left: 4px;
+    }
+    .socialHeader{
+        font-weight: 500;
+        font-size: 18px;
+        padding-left: 16px;
+    }
+    .singleSocialContainer{
+        width: 92%;
+        padding: 6px;
+        border: 1px solid;
+        border-radius: 1.4rem;
+
+        margin-bottom: 20px;
+    }
+    .socialBodyText{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .socialImage{
+        width: 48%;
+        height: 80%;
+        
+        border: 1px solid;
+        border-radius: 1rem;
+    }
+}
+@media screen and (max-width : 530px) {
+    .navigationBar{
+        height: 30px;
+    }
+    .sectionHomeStyle{
+        padding-top: 30px;
+    }
+    .imageProfile{
+        border-radius: 1rem;
+    }
+    .iconClass{
+        font-size: 0.8rem;
+        margin: 0 4px;
+    }
+    
+    .resumeButton{
+        background-color: black;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-size: 8px;
+        border: 0;
+        padding: 2% 2%;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        width: 100%;
+        
+    }
+    .socialIconResume{
+        margin-top: 0.4rem;
+    }
+    .projectTechContainer{
+        width: 72%;
+    }
+    .projectTech{
+        font-family: "Montserrat", sans-serif;
+        font-style: 900;
+        font-size: 8px;
+        padding: 2px 4px;
+        border: 0;
+        border-radius: 2rem;
+        background-color: #C3C3C3;
+    }
+    .singleProjectContainer{
+        width: 92%;
+        padding: 4px;
+        border: 1px solid;
+        border-radius: 1rem;
+    }
+    .projectPicture{
+        border-radius: 0.6rem;
+    }
+    .projectFooterText{
+        font-size: 6px;
+    }
+    .contactText{
+        
+        font-size: 8px;
+        padding-left: 4px;
+    }
+    .socialHeader{
+        font-weight: 500;
+        font-size: 14px;
+        padding-left: 12px;
+    }
+    .singleSocialContainer{
+        width: 92%;
+        padding: 4px;
+        border: 1px solid;
+        border-radius: 1rem;
+
+        margin-bottom: 20px;
+    }
+    .socialBodyText{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .socialImage{
+        width: 48%;
+        height: 60%;
+        
+        border: 1px solid;
+        border-radius: 1rem;
+    }
+}

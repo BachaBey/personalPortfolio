@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Amine Bacha</title>
+    <link rel="stylesheet" href="personalPortfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="navigationBar">
+        <nav class="navigationBarItems">
+            <ul class="itemCollection">
+                <li class="nav-link selected"><a href="#home">Home</a></li>
+                <li class="nav-link"><a href="#bio">Bio</a></li>
+                <li class="nav-link"><a href="#projects">Projects</a></li>
+                <li class="nav-link"><a href="#skills">Skills</a></li>
+                <li class="nav-link"><a href="#social">Social</a></li>
+                <li class="nav-link"><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <main style="display: flex; flex-direction: column;">
+        <section id="home" class="sectionHomeStyle">
+            <div class="homeContainer">
+                <div class="leftSideHomeContainer">
+                    <div class="titleHome">
+                        <h1>Pre-Engineering Student</h1>
+                        <h1>Student At Manouba School of Engineering</h1>
+                    </div>
+                    <div class="terminalHome">
+                        <div style="display: flex;width: 94%; align-items: end;">
+                            <img src="./images/macos.svg" width="100%">
+                            <div class="messageHome">
+                                <p style="color: #50E394;position: relative;">computer:~$</p> <p id="messageGreetings" style="color: white;" class="messageMargin"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="socialIconResume">
+                        <div class="iconResumeContainer">
+                            <div class="socialIcon">
+                                <a target="_blank" href="https://www.linkedin.com/in/mohamed-amine-bacha/" style="padding: 0;" ><i class="fa-brands fa-linkedin iconClass"></i></a>
+                                <a target="_blank" href="https://github.com/BachaBey" style="padding: 0;"><i class="fa-brands fa-github  iconClass"></i></a>
+                                <a target="_blank" href="https://www.behance.net/mohamedaminebacha"  style="padding: 0;"><i class="fa-brands fa-behance iconClass"></i></a>
+                            </div>
+                            <div style="width: 50%;">
+                                <button class="resumeButton" onclick="downloadResume()">Download Resume <i class="fa-solid fa-download" style="margin-left: 1%;"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                        
+                    
+                </div>
+                <div class="rightSideHomeContainer">
+                    <img src="./images/resume-pic.png" width="100%" class="imageProfile">
+                </div>
+            </div>
+        </section>
+
+        <div class="sectionDivider"></div>
+
+        <section id="bio" class="sectionStyle">
+            <div class="bioContainer">
+                <h2 class="sectionTitle">About Me</h2>    
+                <div class="aboutMeText">Pre-Engineering student at Manouba School of Engineering, I'm fascinated by the potential of technology in medicine. </div>
+                <div class="aboutMeText">A curious learner, I thrive on challenges and believe IT can revolutionize healthcare.</div>
+                <div class="aboutMeText">My goal: bridge the gap and make a positive impact.</div>
+            </div>
+        </section>
+
+        <div class="sectionDivider"></div>
+
+        <section id="projects" >
+            <div class="projectsContainer">
+                <h2 class="sectionTitle">Projects</h2>
+                <div class="allProjectsContainer">
+                    <!--Personal Portfolio Project-->
+                    <div class="singleProjectContainer">
+                        <div class="projectHeader">
+                            <div class="projectTechContainer">
+                                <div class="projectTech">Figma</div>
+                                <div class="projectTech">HTML</div>
+                                <div class="projectTech">CSS</div>
+                                <div class="projectTech">JavaScript</div>
+                            </div>
+                            <div style="width: 24%;align-items: center;display: flex;">
+                                <button class="resumeButton  detailsButton" value="personalPortfolio">More Details</button>
+                            </div>
+                        </div>
+                        <div class="projectBody">
+                            <div class="leftBodyProject">
+                                <h3 class="projectTitle">Personal Portfolio</h3>
+                                <p class="projectDescription">A Personal Portfolio to present my work,skills, and my extracurricular activities.</p>
+                                <p class="projectDescription">This webpage is made by me using html, css and JavaScript</p>
+                            </div>
+                            <div class="rightBodyProject">
+                                <img src="./images/personalportfolio.png" width="100%" class="projectPicture">
+                            </div>
+                        </div>
+                        <div class="projectFooter">
+                            <p class="projectFooterText">Year 2024</p>
+                        </div>
+                    </div>
+                    <!--ASQII internship Portfolio-->
+                    <div class="singleProjectContainer">
+                        <div class="projectHeader">
+                            <div class="projectTechContainer">
+                                <div class="projectTech">Figma</div>
+                                <div class="projectTech">HTML</div>
+                                <div class="projectTech">CSS</div>
+                                <div class="projectTech">JavaScript</div>
+                                <div class="projectTech">Firebase</div>
+                            </div>
+                            <div style="width: 24%;align-items: center;display: flex;">
+                                <button class="resumeButton  detailsButton" value="internshipInterface">More Details</button>
+                            </div>
+                        </div>
+                        <div class="projectBody">
+                            <div class="leftBodyProject">
+                                <h3 class="projectTitle">ASQII Website</h3>
+                                <p class="projectDescription">This website is made during my internship at ASQII</p>
+                                <p class="projectDescription">This is an interface to control ASQII's machines</p>
+                            </div>
+                            <div class="rightBodyProject">
+                                <img src="./images/login.png" width="100%" class="projectPicture">
+                            </div>
+                        </div>
+                        <div class="projectFooter">
+                            <p class="projectFooterText">Year 2024</p>
+                        </div>
+                    </div>
+                    <!--OptimalTime Hackathon-->
+                    <div class="singleProjectContainer">
+                        <div class="projectHeader">
+                            <div class="projectTechContainer" style="width: 26%;">
+                                <div class="projectTech">Figma</div>
+                                <div class="projectTech">Python</div>
+                                
+                            </div>
+                            <div style="width: 24%;align-items: center;display: flex;">
+                                <button class="resumeButton  detailsButton" value="optimalTime">More Details</button>
+                            </div>
+                        </div>
+                        <div class="projectBody">
+                            <div class="leftBodyProject">
+                                <h3 class="projectTitle">OptimalTime - Keyword Generator App</h3>
+                                <p class="projectDescription">This project tackles the mountain of paperwork in hospitals with a powerful AI app.</p>
+                                <p class="projectDescription">The app, designed for hospital systems, can understand both typed and spoken doctor's notes.</p>
+                                <p class="projectDescription">It then generates keywords that automatically organize and summarize the data.</p>
+                                <p class="projectDescription">This translates to less wasted time, improved data access, and better organization, all while freeing up staff for more critical tasks.</p>
+                            </div>
+                            <div class="rightBodyProject">
+                                <img src="./images/optimalTime.png" width="100%" class="projectPicture">
+                            </div>
+                        </div>
+                        <div class="projectFooter">
+                            <p class="projectFooterText">Year 2024</p>
+                        </div>
+                    </div>
+                    <!--Lakahni Hackathon-->
+                    <div class="singleProjectContainer">
+                        <div class="projectHeader">
+                            <div class="projectTechContainer" style="width: 26%;">
+                                <div class="projectTech">Figma</div>
+                            </div>
+                            <div style="width: 24%;align-items: center;display: flex;">
+                                <button class="resumeButton  detailsButton" value="lakahni">More Details</button>
+                            </div>
+                        </div>
+                        <div class="projectBody">
+                            <div class="leftBodyProject">
+                                <h3 class="projectTitle">LAKAHNI - Vaccine Reminder Platform</h3>
+                                <p class="projectDescription" style="font-weight: 500;">Tunisia's first vaccine reminder platform combats preventable diseases with a simple solution: text message reminders. </p>
+                                <p class="projectDescription">This ensures timely vaccinations, leading to a two-fold benefit:</p>
+                                <p class="projectDescription">-reduced healthcare costs for the government</p>
+                                <p class="projectDescription">improved quality of life for individuals through better health and fewer missed workdays.</p>
+                            </div>
+                            <div class="rightBodyProject">
+                                <img src="./images/sign(english).png" width="100%" class="projectPicture">
+                            </div>
+                        </div>
+                        <div class="projectFooter">
+                            <p class="projectFooterText">Year 2024</p>
+                        </div>
+                    </div>
+                    <!--Rock Paper Scissors game-->
+                    <div class="singleProjectContainer">
+                        <div class="projectHeader">
+                            <div class="projectTechContainer">
+                                <div class="projectTech">Figma</div>
+                                <div class="projectTech">HTML</div>
+                                <div class="projectTech">CSS</div>
+                                <div class="projectTech">PyScript</div>
+                            </div>
+                            <div style="width: 24%;align-items: center;display: flex;">
+                                <button class="resumeButton  detailsButton" value="ro_pa_sc">More Details</button>
+                            </div>
+                        </div>
+                        <div class="projectBody">
+                            <div class="leftBodyProject">
+                                <h3 class="projectTitle">ROCK PAPER SCISSORS - Web Game</h3>
+                                <p class="projectDescription">A web game created using html/css and pyscript</p>
+                                <p class="projectDescription">-The user choose an option then the game will randomly choose an option</p>
+                            </div>
+                            <div class="rightBodyProject">
+                                <img src="./images/ro_pa_sc.png" width="100%" class="projectPicture">
+                            </div>
+                        </div>
+                        <div class="projectFooter">
+                            <p class="projectFooterText">Year 2024</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="sectionDivider"></div>
+
+        <section id="skills">
+            <h2 class="sectionTitle">Skills</h2>
+            <div class="skillsContainer">
+                <div class="allSkillsContainer">
+                    <div class="skillsFisrtRowIcons">
+                        <img class="iconSkill" src="./images/icons/vscode-icon.png"><img class="iconSkill" src="./images/icons/github-icon.svg" ><img class="iconSkill" src="./images/icons/git-icon.svg" ><img class="iconSkill" src="./images/icons/firebase-icon.svg" ><img class="iconSkill" src="./images/icons/python-icon.svg" >
+                    </div>
+                    <div class="skillsSecondRowIcons">
+                        <img class="iconSkill" src="./images/icons/raspberry-icon.svg" ><img class="iconSkill" src="./images/icons/html-icon.svg" ><img class="iconSkill" src="./images/icons/css-icon.svg" ><img class="iconSkill" src="./images/icons/javascript-icon.svg" ><img class="iconSkill" src="./images/icons/figma-icon.svg" >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="sectionDivider"></div>
+
+        <section id="social">
+            <h2 class="sectionTitle">Social</h2>
+            <div class="allSocialContainer">
+
+
+
+                <div class="singleSocialContainer">
+                    <div class="socialHeader">
+                        <div class="socialActivityTitle">GenAI in HealthCare - Hackathon</div>
+                    </div>
+                    <div class="socialBody">
+                        <div class="leftSideSocial">
+                            <p class="socialBodyText">Location : Soth Mediterranean University</p>
+                            <p class="socialBodyText">Date : March 2024</p>
+                            <p class="socialBodyText">Duration : 24 Hours </p>
+                            <p class="socialBodyText">Organizer : South Meditereannien university</p>
+                        </div>
+                        <div class="rightSideSocial">
+                            <img src="./images/genai-hackathon1.jpg" class="socialImage">
+                            <img src="./images/genai-hackathon2.jpg" class="socialImage">
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="singleSocialContainer">
+                    <div class="socialHeader">
+                        <div class="socialActivityTitle">Café Chanté - Musical Event</div>
+                    </div>
+                    <div class="socialBody">
+                        <div class="leftSideSocial">
+                            <p class="socialBodyText">My Role : Event Moderator</p>
+                            <p class="socialBodyText">Location : École Nationale des Sciences Informartiques</p>
+                            <p class="socialBodyText">Date : February 2024</p>
+                            <p class="socialBodyText">Duration : 4 Hours</p>
+                            <p class="socialBodyText">Organizer : ENSI Music Club</p>
+                        </div>
+                        <div class="rightSideSocial">
+                            <img src="./images/cafechante1.jpg" class="socialImage">
+                            <img src="./images/cafechante2.png" class="socialImage">
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="singleSocialContainer">
+                    <div class="socialHeader">
+                        <div class="socialActivityTitle">WE HELP - Hackathon</div>
+                    </div>
+                    <div class="socialBody">
+                        <div class="leftSideSocial">
+                            <p class="socialBodyText">Location : Soth Mediterranean University</p>
+                            <p class="socialBodyText">Date : February 2024</p>
+                            <p class="socialBodyText">Duration : 24 Hours </p>
+                            <p class="socialBodyText">Organizer : GDSC - IEEE Clubs South Mediterreanien University</p>
+                        </div>
+                        <div class="rightSideSocial">
+                            <img src="./images/certifwehelp.jpg" class="socialImage">
+                            <img src="./images/wehelppic.jpg" class="socialImage">
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="singleSocialContainer">
+                    <div class="socialHeader">
+                        <div class="socialActivityTitle">GRS 1.0 - Hackathon</div>
+                    </div>
+                    <div class="socialBody">
+                        <div class="leftSideSocial">
+                            <p class="socialBodyText">Location : Faculté de Sciences Tunis</p>
+                            <p class="socialBodyText">Date : November 2023</p>
+                            <p class="socialBodyText">Duration : 6 Hours </p>
+                            <p class="socialBodyText">Organizer : IEEE  Institut National Agronomique de Tunisie</p>
+                        </div>
+                        <div class="rightSideSocial">
+                            <img src="./images/certifgrs1.0.jpg" class="socialImage" style="width: 70%;margin-left: 20%;">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="singleSocialContainer">
+                    <div class="socialHeader">
+                        <div class="socialActivityTitle">Musical Show - Forum</div>
+                    </div>
+                    <div class="socialBody">
+                        <div class="leftSideSocial">
+                            <p class="socialBodyText">My Role : Violin Player</p>
+                            <p class="socialBodyText">Location : École Nationale des Sciences Informartiques</p>
+                            <p class="socialBodyText">Date : November 2023</p>
+                            <p class="socialBodyText">Duration : 2 Hours </p>
+                            <p class="socialBodyText">Organizer : ENSI Music Club</p>
+                        </div>
+                        <div class="rightSideSocial">
+                            <img src="./images/forum1.jpg" class="socialImage">
+                            <img src="./images/forum2.jpg" class="socialImage">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="sectionDivider"></div>
+
+        <section id="contact">
+            <h2 class="sectionTitle">Contact</h2>
+            <div class="contactContainer">
+                <div class="leftSideContactContainer" >
+                    <p class="contactText"> To get In touch , you can reach me through :</p>
+                    <p class="contactText dataContact"> <i class="fa-solid fa-phone"></i> +216 94 285 525</p>
+                    <p class="contactText dataContact"> <i class="fa-solid fa-envelope"></i> medaminebacha86@gmail.com</p>
+                </div>
+                <div class="rightSideContactContainer">
+                    <div style="width: 50%;">
+                        <button class="resumeButton" onclick="downloadResume()">Download Resume <i class="fa-solid fa-download" style="margin-left: 1%;"></i></button>
+                    </div>
+                    <div class="socialIcon" style="justify-content: space-between;">
+                        <a target="_blank" href="https://www.linkedin.com/in/mohamed-amine-bacha/" style="padding: 0;" ><i class="fa-brands fa-linkedin iconClass"></i></a>
+                        <a target="_blank" href="https://github.com/BachaBey" style="padding: 0;"><i class="fa-brands fa-github  iconClass"></i></a>
+                        <a target="_blank" href="https://www.behance.net/mohamedaminebacha"  style="padding: 0;"><i class="fa-brands fa-behance iconClass"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+    
+    <script>
+        const navigationBar = document.querySelector('.navigationBar');
+        window.addEventListener('scroll', () => {
+            
+            if (window.scrollY > 0) {
+                navigationBar.classList.add('scrolledNavigationBar');
+            } else {
+                navigationBar.classList.remove('scrolledNavigationBar');
+            }
+        })
+
+        
+        const typingElement = document.getElementById('messageGreetings');
+        const textToType = 'Greetings, human!';
+        let currentIndex = 0;
+        let timeoutId;
+
+        function typeOut() {
+            if (currentIndex < textToType.length) {
+                typingElement.textContent += textToType[currentIndex];
+                currentIndex++;
+                timeoutId = setTimeout(typeOut, 100); // 100ms delay between each character
+            } else {
+                // Wait for 10 seconds before repeating
+                setTimeout(() => {
+                currentIndex = 0;
+                typingElement.textContent = '';
+                typeOut();
+                }, 3000);
+            
+            }
+        }
+
+        typeOut();
+
+        function downloadResume(){
+            window.open('./files/Mohamed Amine Bacha CV.pdf', '_blank');
+        }
+        const navLinks  =document.querySelectorAll('.nav-link');
+        navLinks.forEach((link) => {
+            link.addEventListener('click', (e) => {
+                navLinks.forEach((otherLink) => {
+                    otherLink.classList.remove('selected');
+                });
+                link.classList.add('selected');
+            });
+        });
+
+        const detailsButtons = document.querySelectorAll('.detailsButton');
+        detailsButtons.forEach((button) => {
+            button.addEventListener('click', (e) => {
+                const buttonValue = button.value;
+                window.open('https://github.com/BachaBey/'+buttonValue)
+            });
+        });
+     
+    </script>
+</body>
+</html>
